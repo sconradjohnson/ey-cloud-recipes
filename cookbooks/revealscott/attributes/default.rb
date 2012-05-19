@@ -10,7 +10,7 @@
 # Your use api key, found on this page:
 # https://app.copperegg.com/#settings/site
 # REQUIRED.  Revealcloud will not work without this attribute.
-default[:copperegg][:apikey] = "BFb4tI731m96O2lS"
+copperegg :apikey => "BFb4tI731m96O2lS", :tags =>"engineyard"
 
 # Comma and/or space separated list of tags to apply.  Useful for grouping systems.
 # Tags are managed here:  https://app.copperegg.com/#revealcloud/tags
@@ -22,7 +22,7 @@ default[:copperegg][:apikey] = "BFb4tI731m96O2lS"
 # Optional.  This field may be left blank.
 # Example: "devserver"
 # Example: "database,replica,production"
-default[:copperegg][:tags] = ""
+#default[:copperegg][:tags] = "engineyard"
 
 # Label to apply to this system.  Only one may be specified.
 # WARNING: labels are used in place of hostname.
@@ -34,7 +34,7 @@ default[:copperegg][:tags] = ""
 # Note: Leaving blank will not remove a label that is already set on a monitored system.
 # Optional.  This field may be left blank.
 # Example: "MySQL_Master"
-default[:copperegg][:label] = "Engineyard Test1"
+default[:copperegg][:label] = ""
 
 # Proxy to use to connect to revealcloud api from monitored server.
 # Most users should leave this blank unless they know they need it.
