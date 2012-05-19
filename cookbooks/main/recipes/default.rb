@@ -57,6 +57,10 @@
 #uncomment to include the eybackup_verbose recipe
 #require_recipe "eybackup_verbose"
 
+#uncomment to include the revealscott recipe
+require_recipe "revealscott"
+
+
 #uncomment to include the mysql_replication_check recipe
 #require_recipe "mysql_replication_check"
 
