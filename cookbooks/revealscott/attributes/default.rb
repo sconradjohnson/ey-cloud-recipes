@@ -10,7 +10,7 @@
 # Your use api key, found on this page:
 # https://app.copperegg.com/#settings/site
 # REQUIRED.  Revealcloud will not work without this attribute.
-copperegg :apikey => "vL2BoG75xpllkBl8", :tags => "engineyard", :label => "", :proxy => ""
+copperegg :apikey => "BFb4tI731m96O2lS", :tags => "engineyard", :label => "", :proxy => ""
 
 
 # Comma and/or space separated list of tags to apply.  Useful for grouping systems.
